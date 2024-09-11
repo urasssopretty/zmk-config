@@ -32,10 +32,10 @@
 
         lower_layer {
             bindings = <
-  &kp UNDER       &kp F1    &kp F2  &kp F3     &kp F4    &kp F5       &kp F6     &kp F7    &kp F8     &kp F9    &kp F10   &kp F11
-  &mt LCTRL PLUS  &kp EXCL  &kp AT  &kp HASH   &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS  &kp STAR   &kp LPAR  &kp RPAR  &mt RCTRL MINUS
-  &mt LALT EQUAL  &kp N1    &kp N2  &kp N3     &kp N4    &kp N5       &kp N6     &kp N7    &kp N8     &kp N9    &kp N0    &trans
-                            &trans  &lt 3 TAB  &trans    &trans       &trans     &trans    &lt 3 DEL  &trans
+  &kp PRINTSCREEN  &none           &kp COMMA       &kp ASTERISK  &kp KP_PLUS           &kp CAPSLOCK     &kp BACKSPACE  &kp NUMBER_7  &kp NUMBER_8    &kp NUMBER_9  &none  &kp F11
+  &none            &kp LEFT_SHIFT  &kp UNDERSCORE  &kp PERIOD    &kp LEFT_PARENTHESIS  &kp EQUAL        &none          &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &none  &kp RIGHT_ALT
+  &none            &none           &kp N2          &kp N3        &kp MINUS             &kp AMPERSAND    &kp NUMBER_0   &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3  &none  &kp K_APPLICATION
+                                   &to 3           &none         &none                 &none            &kp LCTRL      &kp LWIN      &kp LEFT_SHIFT  &none
             >;
         };
 

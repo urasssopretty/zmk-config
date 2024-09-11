@@ -18,6 +18,40 @@
 &mt { quick_tap_ms = <200>; };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        home {
+            bindings = <&kp HOME>;
+            key-positions = <14 15 16>;
+        };
+
+        end {
+            bindings = <&kp END>;
+            key-positions = <19 20 21>;
+        };
+
+        tab_r {
+            bindings = <&kp TAB>;
+            key-positions = <41 19 20>;
+        };
+
+        tab_l {
+            bindings = <&kp TAB>;
+            key-positions = <16 15 38>;
+        };
+
+        volume_up {
+            bindings = <&kp K_VOLUME_UP>;
+            key-positions = <11 10>;
+        };
+
+        volume_down {
+            bindings = <&kp K_VOLUME_DOWN>;
+            key-positions = <34 35>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
